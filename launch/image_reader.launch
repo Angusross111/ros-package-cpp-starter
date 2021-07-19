@@ -1,7 +1,0 @@
-<launch>
-    <!-- Load the parameters -->
-    <arg name="queue_limit"                  default="10" />
-	<rosparam command="load" file="$(find image_reader)/config/image_reader.yaml" />
-    <param name="/ImageReader/queue_limit"        value="$(arg queue_limit)"      type="int" />
-    <node name="image_reader_node" pkg="image_reader" type="image_reader_node" ns="/ImageReader" output="screen" />
-</launch>

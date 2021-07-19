@@ -1,6 +1,0 @@
-############################################
-# Configuration parameters for the Image Processing
-############################################
-
-ImageReader:
-  image_folder: "/AppleDataCapture/shapefiles/"

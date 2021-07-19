@@ -1,0 +1,4 @@
+<launch>
+    <!-- Load the parameters -->
+    <node pkg="cpp_ros_package_starter" type="counter_node" name="counter_node"   ns="/Counter" output="screen" />
+</launch>
